@@ -57,8 +57,12 @@ nav a{
 #socials{
   background-color: #F3F5F9;
 }
+
+#socials .box{
+}
 #socials img{
-  max-width: 100%;
+  padding: 0 5px 0 5px;
+  height: 80px;
 }
 /* /social section *
 /
@@ -87,6 +91,12 @@ nav a{
   width: 60%;
 }
 /* /designsection */
+/* business */
+#business li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* /business */
 
 /* service */
 #service{
