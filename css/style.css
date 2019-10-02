@@ -4,6 +4,7 @@ nav{
   left:0;
   right: 0;
   z-index: 2;
+  background-color: white;
 }
 nav a{
 }
@@ -24,3 +25,21 @@ nav a{
   width: 100%;
 }
 /* /header rules */
+
+/* main */
+#welcome{
+  padding-top: 15%;
+  padding-bottom: 5%;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-size: cover;
+}
+#welcome .leftb .box{
+  color: white;
+}
+#welcome .rightb .box{
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+/*/ main */
