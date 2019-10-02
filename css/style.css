@@ -1,0 +1,26 @@
+/* header rules */
+nav{
+  position: fixed;
+  left:0;
+  right: 0;
+  z-index: 2;
+}
+nav a{
+}
+#navtop{
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#navtop p{
+  padding: 0;
+}
+
+#navbottom{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#navbottom img {
+  width: 100%;
+}
+/* /header rules */
