@@ -27,6 +27,8 @@ nav a{
 /* /header rules */
 
 /* main */
+
+/* welcome section */
 #welcome{
   padding-top: 15%;
   padding-bottom: 5%;
@@ -42,4 +44,16 @@ nav a{
   background-color: white;
   border-radius: 10px;
 }
+/* /welcome section */
+
+/* social section */
+#socials{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #F3F5F9;
+}
+#socials img{
+  max-width: 100%;
+}
+/* /social section */
 /*/ main */
