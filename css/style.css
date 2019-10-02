@@ -1,3 +1,16 @@
+/* general rules */
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+}
+h3{
+  font-weight: bold;
+}
+/* general rules */
 /* class to be used repeatedly */
 .padtb{
   padding-top: 5%;
@@ -12,6 +25,13 @@ nav{
   right: 0;
   z-index: 2;
   background-color: white;
+}
+#hidden i{
+  line-height: 30px;
+  
+}
+#hidden img{
+  width: 40%;
 }
 nav a{
 }

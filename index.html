@@ -6,15 +6,28 @@
     <title>Digital Ocean Replica</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- header with fixed navbar -->
     <header>
-      <nav>
+      <nav id="hidden" class="hidden-md hidden-lg">
+        <div class="container-fluid">
+          <div class="col-xs-6">
+            <img src="img/digitalocean_logo.png" alt="">
+
+          </div>
+          <div class="col-xs-6 text-right">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+      </nav>
+      <nav class="hidden-xs hidden-sm">
         <div class="container-fluid">
           <div  id="navtop" class="row">
-            <div class="col-xs-6 lh8">
+            <div class="col-xs-6">
               <p>
               <a href="#">NEW</a>
                 Now available: Memory-Optimized Droplets >
@@ -63,13 +76,13 @@
         <div class="container">
           <div class="row">
             <!-- leftb means left box -->
-            <div class="col-xs-6 text-right leftb">
+            <div class="col-xs-12 col-sm-6 leftb">
               <div class="box">
                 <h1>Welcome to the developer cloud</h1>
                 <p>DigitalOcean makes it simple to launch in the cloud and scale up as you grow—with an intuitive control panel, predictable pricing, team accounts and more.</p>
               </div>
             </div>
-            <div class="col-xs-6 text-left rightb">
+            <div class="col-xs-12 col-sm-6  text-left rightb">
               <div class="box">
                 <h3 class="text-center">Deploy in seconds</h3>
                 <form>
@@ -107,25 +120,25 @@
               <li><img src="img/hashicorp-4431df79.png"  class="img-responsive" alt="logo"></li>
               <li><img src="img/wework-be6eab32.png" class="img-responsive"  alt="logo"></li>
               <li><img src="img/splunk-06b17d75.png" class="img-responsive"  alt="logo"></li>
-            </ul>            
+            </ul>
           </div>
           <!-- <div class="row">
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/docker-bab60eeb.png" class="img-responsive" alt="logo">
             </div>
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/gitlab-166e2067.png" class="img-responsive" alt="logo">
             </div>
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/slack-e20293da.png" class="img-responsive" alt="logo">
             </div>
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/hashicorp-4431df79.png"  class="img-responsive" alt="logo">
             </div>
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/wework-be6eab32.png" class="img-responsive"  alt="logo">
             </div>
-            <div class="col-xs-2">
+            <div class="col-xs-6">
               <img src="img/splunk-06b17d75.png" class="img-responsive"  alt="logo">
             </div>
           </div> -->
@@ -140,7 +153,7 @@
           <h2>Deploy and scale seamlessly</h2>
           <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           <div class="row text-left">
-            <div class="col-xs-4 pad">
+            <div class="col-xs-12 col-sm-4 pad">
               <ul class="list-unstyled">
                 <li><a href="#">Deploy</a></li>
                 <li><a href="#">Scale</a></li>
@@ -150,7 +163,7 @@
               </ul>
 
             </div>
-            <div class="col-xs-8">
+            <div class="col-xs-12 col-sm-8">
               <div class="container-fluid">
                 <div class="row">
 
@@ -215,7 +228,7 @@
         <div class="container text-center">
           <h2>Build for business</h2>
           <div class="row text-left padtb">
-            <div class="col-xs-3">
+            <div class="col-xs-6  col-sm-3">
               <ul class="list-unstyled">
                 <li>logo</li>
                 <li><h4>Kubernetes in minutes</h4></li>
@@ -223,7 +236,7 @@
                 <li><a href="#">Security</a></li>
               </ul>
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-6 col-sm-3">
               <ul class="list-unstyled">
                 <li>logo</li>
                 <li><h4>Kubernetes in minutes</h4></li>
@@ -231,7 +244,7 @@
                 <li><a href="#">Security</a></li>
               </ul>
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-6 col-sm-3">
               <ul class="list-unstyled">
                 <li>logo</li>
                 <li><h4>Kubernetes in minutes</h4></li>
@@ -239,7 +252,7 @@
                 <li><a href="#">Security</a></li>
               </ul>
             </div>
-            <div class="col-xs-3">
+            <div class="col-xs-6 col-sm-3">
               <ul class="list-unstyled">
                 <li>logo</li>
                 <li><h4>Kubernetes in minutes</h4></li>
@@ -259,7 +272,7 @@
         <div class="container text-center">
           <h2>Service your customers around the world from 12 data centers.</h2>
           <div class="row padtb">
-            <div class="col-xs-6">
+            <div class="col-xs-12  col-sm-6">
               <table class="table table-hover">
                 <tr>
                   <th>AMS2</th>
@@ -294,7 +307,7 @@
 
               </table>
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-12  col-sm-6">
               <table class="table table-hover">
                 <tr>
                   <th>AMS2</th>
@@ -363,7 +376,7 @@
     <footer class="padtb">
       <div class="container">
         <div class="row">
-          <div class="col-xs-2 col-xs-offset-1">
+          <div class="col-xs-6  col-sm-2 col-sm-offset-1">
             <ul>
               <li><lead>Company</lead></li>
               <li><a href="#">link</a></li>
@@ -376,7 +389,7 @@
               <li><a href="#">link</a></li>
             </ul>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-6 col-sm-2">
             <ul>
               <li><lead>Company</lead></li>
               <li><a href="#">link</a></li>
@@ -394,7 +407,7 @@
               <li><a href="#">link</a></li>
             </ul>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-6 col-sm-2">
             <ul>
               <li><lead>Company</lead></li>
               <li><a href="#">link</a></li>
@@ -408,7 +421,7 @@
               <li><a href="#">link</a></li>
             </ul>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-6 col-sm-2">
               <ul>
                 <li><lead>Company</lead></li>
                 <li><a href="#">link</a></li>
@@ -417,7 +430,7 @@
                 <li><a href="#">link</a></li>
               </ul>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-6 col-sm-2">
             <ul>
               <li><lead>Company</lead></li>
               <li><a href="#">link</a></li>
