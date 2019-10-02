@@ -27,6 +27,7 @@ nav a{
 #navbottom{
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 1px solid gray;
 }
 #navbottom img {
   width: 100%;
@@ -87,6 +88,20 @@ nav a{
 }
 /* /designsection */
 
+/* service */
+#service{
+  background: #0F2656 url("../img/svg0.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#service td{
+  color: gray;
+}
+/* /service */
+
 /* development section */
 #development{
   background-color: #F3F5F9;
@@ -108,4 +123,26 @@ nav a{
   width: 30%;
 }
 /* /development section */
+
+/* start section*/
+#start{
+  color: white;
+  background-image: url("../img/bg-home-1-d54581d7.jpg");
+  background-size: cover;
+}
+/* /start section */
+
+footer{
+  background-color: #010E28;
+}
+footer li{
+  color: white;
+}
+footer li a{
+  color: gray;
+}
+footer img {
+  width: 50%;
+  background-color:  #010E28;
+}
 /*/ main */
