@@ -56,4 +56,17 @@ nav a{
   max-width: 100%;
 }
 /* /social section */
+#deploy{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#deploy .pad{
+  padding-left: 20%;
+}
+#deploy li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* deploy section */
+/* /deploy section */
 /*/ main */
