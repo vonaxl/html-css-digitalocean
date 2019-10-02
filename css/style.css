@@ -1,4 +1,11 @@
+/* class to be used repeatedly */
+.padtb{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+/* class to be used repeatedly */
 /* header rules */
+
 nav{
   position: fixed;
   left:0;
@@ -31,7 +38,6 @@ nav a{
 /* welcome section */
 #welcome{
   padding-top: 15%;
-  padding-bottom: 5%;
   background-image: url("../img/bg-home-1-d54581d7.jpg");
   background-size: cover;
 }
@@ -48,18 +54,15 @@ nav a{
 
 /* social section */
 #socials{
-  padding-top: 5%;
-  padding-bottom: 5%;
   background-color: #F3F5F9;
 }
 #socials img{
   max-width: 100%;
 }
-/* /social section */
-#deploy{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
+/* /social section *
+/
+/* deploy section */
+
 #deploy .pad{
   padding-left: 20%;
 }
@@ -67,6 +70,42 @@ nav a{
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* deploy section */
 /* /deploy section */
+
+/* designsection */
+#design{
+  background-color: #F3F5F9;
+}
+
+#design *{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#design img{
+  width: 60%;
+}
+/* /designsection */
+
+/* development section */
+#development{
+  background-color: #F3F5F9;
+}
+
+#development .box{
+  background-color: white;
+  margin: auto;
+  width: 50%;
+}
+
+#development .box *{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#development .box img{
+  margin-bottom: 5px;
+  width: 30%;
+}
+/* /development section */
 /*/ main */
