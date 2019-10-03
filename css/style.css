@@ -19,7 +19,7 @@ p{
 }
 
 .sizeimg{
-  width: 30%;
+  width: 25%;
 }
 .sizesocial{
   width: 10%;
@@ -57,9 +57,15 @@ nav a{
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid gray;
+  vertical-align: center;
 }
 #navbottom img {
   width: 100%;
+}
+#navbottom  .text-right a{
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
 }
 /* /header rules */
 
