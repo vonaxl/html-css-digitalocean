@@ -4,11 +4,12 @@ h1{
   font-weight: bold;
 }
 
-h2{
+h2, h3, h4{
   font-weight: bold;
 }
-h3{
-  font-weight: bold;
+
+p{
+  font-size: 17px;
 }
 /* general rules */
 /* class to be used repeatedly */
@@ -96,8 +97,12 @@ nav a{
   padding-left: 20%;
 }
 #deploy li{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20%;
+}
+#deploy p{
+  color: gray;
 }
 /* /deploy section */
 
@@ -117,8 +122,11 @@ nav a{
 /* /designsection */
 /* business */
 #business li{
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#business li p{
+  color: gray;
 }
 /* /business */
 
